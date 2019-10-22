@@ -42,7 +42,7 @@ pipeline {
                 environment name: 'DEPLOY', value: 'true'
             }
             steps {
-                sh label: '', returnStatus: true, script: '''mkdir build; cp app /build '''
+                sh label: '', returnStatus: true, script: '''mkdir build; cp app build '''
             }
         }
 	}
