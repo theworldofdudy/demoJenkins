@@ -3,5 +3,6 @@
     int main() 
     {
         cout << "Hello, World!" << std::endl; //! Error a proposito para detectarlo con jenkins
-        return 0;
+        cout << "This is a jenkin test" << std::endl;
+		return 0;
     }
